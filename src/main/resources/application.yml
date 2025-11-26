@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: demo
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://127.0.0.1:3307/testmedb
+    username: testmedb_user
+    password: testmedb_user
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MariaDBDialect
