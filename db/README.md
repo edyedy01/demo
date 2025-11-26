@@ -18,5 +18,6 @@ to fix:
 
 ## run
 ```
+run below in the same directory that the docker-compose.yml file is in
 docker-compose up -d
 ```
